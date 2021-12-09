@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EcoCore" Version="7.0.0.13717" />
+    <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.19.0" />
+    <PackageReference Include="NAudio" Version="2.0.1" />
+    <PackageReference Include="Syn.Speech" Version="1.0.3" />
+    <PackageReference Include="System.Speech" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
